@@ -1,4 +1,4 @@
-FROM openjdk:11 AS 
+FROM openjdk:11 AS BULD_IMAGE
 LABEL "Project"="vprofile"
 LABEL "Author"="Abhi"
 RUN apt update && apt install maven -y
